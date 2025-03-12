@@ -6,8 +6,8 @@ int main() {
     std::vector<int> reversed;
     int vector_length = numbers.size();
     for (int i = vector_length - 1; i >= 0; i--) {
-      reversed.push_back(i)
-        }
+        reversed.push_back(numbers[i]);
+    }
       
       
     std::cout << "Reversed Numbers:\n";
